@@ -9,8 +9,8 @@
 - git: {local-name: dumbo_control, uri: 'https://github.com/fevb/dumbo_control.git',
     version: hydro-devel}
 - git: {local-name: schunk_sdh, uri: 'https://github.com/fevb/schunk_sdh.git', version: hydro}
-- git: {local-name: dumbo_gui, uri: 'https://github.com/kth-ros-pkg/dumbo_gui.git',
-    version: hydro}
+- git: {local-name: dumbo_gui, uri: 'https://github.com/fevb/dumbo_gui.git',
+    version: hydro-ros-control}
 - git: {local-name: kdl_acc_solver, uri: 'https://github.com/kth-ros-pkg/kdl_acc_solver.git',
     version: hydro}
 - git: {local-name: kdl_wrapper, uri: 'https://github.com/kth-ros-pkg/kdl_wrapper.git',
