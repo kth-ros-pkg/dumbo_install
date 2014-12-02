@@ -1,0 +1,4 @@
+- git: {local-name: ar_kinect, uri: 'http://github.com/HumaRobotics/ar_kinect.git', version:hydro-devel}
+- git: {local-name: ar_tools, uri: 'https://github.com/fevb/ar_tools.git', version: hydro}
+- git: {local-name: openni2_launch, uri: 'https://github.com/fevb/openni2_launch.git',
+    version: hydro-devel}
