@@ -1,7 +1,7 @@
 - git: {local-name: kvaser_canlib, uri: 'https://github.com/kth-ros-pkg/kvaser_canlib.git',
     version: hydro}
-- git: {local-name: dumbo_common, uri: 'https://github.com/kth-ros-pkg/dumbo_common.git',
-    version: hydro}
+- git: {local-name: dumbo_common, uri: 'https://github.com/fevb/dumbo_common.git',
+    version: hydro-ros-control}
 - git: {local-name: dumbo_robot, uri: 'https://github.com/fevb/dumbo_robot.git',
     version: hydro-ros-control}
 - git: {local-name: dumbo_driver, uri: 'https://github.com/fevb/dumbo_driver.git',
