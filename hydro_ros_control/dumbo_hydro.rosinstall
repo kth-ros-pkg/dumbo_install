@@ -49,3 +49,5 @@
     version: hydro}
 - git: {local-name: camera_robot_calibration, uri: 'https://github.com/gborghesan/camera_robot_calibration.git',
     version: hydro}
+- git: {local-name: ros_controllers, uri: 'https://github.com/ros-controls/ros_controllers.git',
+    version: indigo-devel}
