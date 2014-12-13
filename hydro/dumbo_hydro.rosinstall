@@ -21,7 +21,7 @@
     version: hydro}
 - git: {local-name: biotac_driver, uri: 'https://github.com/kth-ros-pkg/biotac_driver.git',
     version: hydro}
-- git: {local-name: dumbo_force_control, uri: 'https://github.com/kth-ros-pkg/dumbo_force_control',
+- git: {local-name: dumbo_apps, uri: 'https://github.com/kth-ros-pkg/dumbo_apps',
     version: hydro}
 - git: {local-name: dumbo_safety_monitor, uri: 'https://github.com/kth-ros-pkg/dumbo_safety_monitor',
     version: hydro}
