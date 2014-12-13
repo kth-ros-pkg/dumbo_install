@@ -19,8 +19,8 @@
     version: hydro}
 - git: {local-name: force_torque_tools, uri: 'https://github.com/fevb/force_torque_tools.git',
     version: hydro-calib-bias}
-- git: {local-name: dumbo_moveit, uri: 'https://github.com/kth-ros-pkg/dumbo_moveit.git',
-    version: hydro}
+- git: {local-name: dumbo_moveit, uri: 'https://github.com/fevb/dumbo_moveit.git',
+    version: hydro-ros-control}
 - git: {local-name: biotac_driver, uri: 'https://github.com/kth-ros-pkg/biotac_driver.git',
     version: hydro}
 - git: {local-name: dumbo_force_control, uri: 'https://github.com/kth-ros-pkg/dumbo_force_control',
