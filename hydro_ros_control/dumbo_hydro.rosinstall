@@ -51,3 +51,5 @@
     version: hydro}
 - git: {local-name: ros_controllers, uri: 'https://github.com/fevb/ros_controllers.git',
     version: indigo-devel-fix-vel-controller}
+- git: {local-name: dumbo_simulator, uri: 'https://github.com/fevb/dumbo_simulator.git',
+    version: hydro-devel}
