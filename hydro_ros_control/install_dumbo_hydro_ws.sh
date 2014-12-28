@@ -38,6 +38,7 @@ sudo apt-get install ros-hydro-cob-driver
 sudo apt-get install ros-hydro-cob-common
 sudo apt-get install ros-hydro-moveit*
 sudo apt-get install ros-hydro-rqt*
+sudo apt-get install ros-hydro-ros-control*
 
 
 ###################################
