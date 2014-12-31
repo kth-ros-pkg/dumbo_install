@@ -34,11 +34,12 @@ cd ~/catkin_ws/src/
 
 
 # install dependencies
-sudo apt-get install ros-hydro-cob-driver
-sudo apt-get install ros-hydro-cob-common
-sudo apt-get install ros-hydro-moveit*
-sudo apt-get install ros-hydro-rqt*
-sudo apt-get install ros-hydro-ros-control*
+sudo apt-get install ros-hydro-cob-driver -y
+sudo apt-get install ros-hydro-cob-common -y
+sudo apt-get install ros-hydro-moveit* -y
+sudo apt-get install ros-hydro-rqt* -y
+sudo apt-get install ros-hydro-ros-control* -y
+sudo apt-get install ros-hydro-joint-limits-interface -y
 
 
 ###################################
