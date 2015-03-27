@@ -4,6 +4,15 @@
 # for reading sensors, controlling manipulators, etc
 # to run: ./install_dumbo_hydro_ws.sh
 # while compiling it will get stuck waiting for sudo password!
+echo "installing CAN cards"
+cd ~/
+wget http://www.kvaser.com/software/7330130980754/V5_3_0/linuxcan.tar.gz
+
+tar -xzf linuxcan.tar.gz
+cd linuxcan
+sudo make install
+
+cd ~/
 
 echo "INSTALLING DUMBO ROS WORKSPACE IN ~/catkin_ws"
 
@@ -33,10 +42,12 @@ cd ~/catkin_ws/src/
 
 
 # install dependencies
-sudo apt-get install ros-hydro-cob-driver
-sudo apt-get install ros-hydro-cob-common
-sudo apt-get install ros-hydro-moveit*
-sudo apt-get install ros-hydro-rqt*
+sudo apt-get install ros-hydro-cob-driver -y
+sudo apt-get install ros-hydro-cob-common -y
+sudo apt-get install ros-hydro-moveit* -y
+sudo apt-get install ros-hydro-rqt* -y
+sudo apt-get install ros-hydro-ros-control* -y
+sudo apt-get install ros-hydro-joint-limits-interface -y
 
 
 ###################################

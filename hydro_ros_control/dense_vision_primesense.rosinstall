@@ -1,7 +1,0 @@
-- git: {local-name: dense_vision_client, uri: 'https://github.com/kth-ros-pkg/dense_vision_client.git', version: hydro}
-- git: {local-name: openni2_launch, uri: 'https://github.com/fevb/openni2_launch.git',
-    version: hydro-devel}
-- git: {local-name: openni2_camera, uri: 'https://github.com/ros-drivers/openni2_camera.git',
-    version: hydro-devel}
-- git: {local-name: rgbd_launch, uri: 'https://github.com/fevb/rgbd_launch.git',
-    version: hydro-devel}
