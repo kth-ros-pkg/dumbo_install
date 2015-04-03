@@ -6,6 +6,8 @@
     version: hydro}
 - git: {local-name: dumbo_driver, uri: 'https://github.com/kth-ros-pkg/dumbo_driver.git',
     version: hydro}
+- git: {local-name: dumbo_control, uri: 'https://github.com/kth-ros-pkg/dumbo_control.git',
+    version: hydro-devel}
 - git: {local-name: schunk_sdh, uri: 'https://github.com/fevb/schunk_sdh.git', version: hydro}
 - git: {local-name: dumbo_gui, uri: 'https://github.com/kth-ros-pkg/dumbo_gui.git',
     version: hydro}
@@ -15,8 +17,8 @@
     version: hydro}
 - git: {local-name: dumbo_hardware_test, uri: 'https://github.com/kth-ros-pkg/dumbo_hardware_test.git',
     version: hydro}
-- git: {local-name: force_torque_tools, uri: 'https://github.com/kth-ros-pkg/force_torque_tools.git',
-    version: hydro}
+- git: {local-name: force_torque_tools, uri: 'https://github.com/fevb/force_torque_tools.git',
+    version: hydro-calib-bias}
 - git: {local-name: dumbo_moveit, uri: 'https://github.com/kth-ros-pkg/dumbo_moveit.git',
     version: hydro}
 - git: {local-name: biotac_driver, uri: 'https://github.com/kth-ros-pkg/biotac_driver.git',
@@ -47,3 +49,7 @@
     version: hydro}
 - git: {local-name: camera_robot_calibration, uri: 'https://github.com/gborghesan/camera_robot_calibration.git',
     version: hydro}
+- git: {local-name: ros_controllers, uri: 'https://github.com/kth-ros-pkg/ros_controllers.git',
+    version: indigo-devel-fix-vel-controller}
+- git: {local-name: dumbo_simulator, uri: 'https://github.com/kth-ros-pkg/dumbo_simulator.git',
+    version: hydro-devel}
