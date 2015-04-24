@@ -48,6 +48,7 @@ sudo apt-get install ros-hydro-moveit* -y
 sudo apt-get install ros-hydro-rqt* -y
 sudo apt-get install ros-hydro-ros-control* -y
 sudo apt-get install ros-hydro-joint-limits-interface -y
+sudo apt-get install ros-hydro-openni2* ros-hydro-gazebo* ros-hydro-bfl* -y
 
 
 ###################################
