@@ -33,6 +33,8 @@
     version: hydro}
 - git: {local-name: robotiq, uri: 'https://github.com/ros-industrial/robotiq.git',
     version: hydro-devel}
+- git: {local-name: ethercat-soem, uri: 'https://github.com/ros-industrial/ethercat-soem.git',
+    version: hydro-devel}
 - git: {local-name: robotiq_s_model_utils, uri: 'https://github.com/kth-ros-pkg/robotiq_s_model_utils.git',
     version: hydro}
 - git: {local-name: openni2_launch, uri: 'https://github.com/fevb/openni2_launch.git',
