@@ -8,7 +8,7 @@
     version: hydro}
 - git: {local-name: dumbo_control, uri: 'https://github.com/kth-ros-pkg/dumbo_control.git',
     version: hydro-devel}
-- git: {local-name: schunk_sdh, uri: 'https://github.com/fevb/schunk_sdh.git', version: hydro}
+- git: {local-name: schunk_sdh, uri: 'https://bitbucket.com/fevb/schunk_sdh.git', version: hydro}
 - git: {local-name: dumbo_gui, uri: 'https://github.com/kth-ros-pkg/dumbo_gui.git',
     version: hydro}
 - git: {local-name: kdl_acc_solver, uri: 'https://github.com/kth-ros-pkg/kdl_acc_solver.git',
@@ -32,6 +32,8 @@
 - git: {local-name: imu_tools, uri: 'https://github.com/ccny-ros-pkg/imu_tools.git',
     version: hydro}
 - git: {local-name: robotiq, uri: 'https://github.com/ros-industrial/robotiq.git',
+    version: hydro-devel}
+- git: {local-name: ethercat-soem, uri: 'https://github.com/ros-industrial/ethercat-soem.git',
     version: hydro-devel}
 - git: {local-name: robotiq_s_model_utils, uri: 'https://github.com/kth-ros-pkg/robotiq_s_model_utils.git',
     version: hydro}
